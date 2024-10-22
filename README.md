@@ -9,6 +9,8 @@ This project aims to predict whether the customer stop doing business with a com
 - Front end
   - React
   - Tailwind
+- Backend
+  - FastAPI
 
 ## Dataset
 This dataset is used for training this model : https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset
@@ -36,12 +38,22 @@ Metrics: Precision, Recall, Accurac
 
 ## Results
 This is the confusion matrix when using precision as refit matrix
+
 ![image](https://github.com/user-attachments/assets/508dd673-a916-4d28-ac95-6e9280b806ad)
 
 This is the confusion matrix when using recall as refit matrix
+
 ![image](https://github.com/user-attachments/assets/8984ed06-e381-41b0-b312-7ab01fb5db21)
 
 
 This is the confusion matrix when using accuracy as refit matrix
+
 ![image](https://github.com/user-attachments/assets/dec3af75-67bb-42a9-8500-7a86fa0982a7)
+
+
+## Frontend
+The server is in ChurnnModel format. It is written in FastAPi. To run the app start the server and npm run dev the Frontend.
+![image](https://github.com/user-attachments/assets/14f743c5-eded-4a6d-9b80-cb43e54280b0)
+
+
 
